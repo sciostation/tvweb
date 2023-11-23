@@ -40,7 +40,7 @@
 		autoPlay: true,
 		// showLog: false
 	});
-	let url = new URL(location.href).searchParams.get("url") || "https://raw.githubusercontent.com/sciostation/tv/main/streaming.m3u8";
+	let url = new URL(location.href).searchParams.get("url") || "https://raw.githubusercontent.com/sciostation/tv/main/tvradio.m3u";
 	let playUrl = new URL(location.href).searchParams.get("playUrl") || "";
 	url = url.trim();
 	playUrl = playUrl.trim();
